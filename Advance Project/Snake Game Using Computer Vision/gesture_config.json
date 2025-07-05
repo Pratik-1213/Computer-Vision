@@ -1,0 +1,21 @@
+{
+    "gestures": {
+        "fist": "down",
+        "thumb_to_palm": "up",
+        "two_fingers": "right",
+        "one_finger": "left",
+        "all_fingers": "neutral"
+    },
+    "keys": {
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right",
+        "neutral": "space"
+    },
+    "cooldown": 0.3,
+    "detection_threshold": 0.6,
+    "sound_enabled": true,
+    "thumb_to_palm_threshold": 0.3,
+    "finger_detection_threshold": 0.6
+}
