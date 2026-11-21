@@ -45,11 +45,22 @@
 ## 📸 Screenshots
 
 <p float="left">
-  <img src="https://github.com/Pratik-1213/Computer-Vision/blob/main/Programs%20of%20Computer%20Vision/BasicObjectDetection.png" width="200" alt="Basic Object Detection"/>
-  <img src="https://github.com/Pratik-1213/Computer-Vision/blob/main/Programs%20of%20Computer%20Vision/FaceCount.png" width="200" alt="Image Processing"/>
-  <img src="https://github.com/Pratik-1213/Computer-Vision/blob/main/Programs%20of%20Computer%20Vision/FingureCount.png" width="200" alt="Video Analysis"/>
-  <img src="https://github.com/Pratik-1213/Computer-Vision/blob/main/Programs%20of%20Computer%20Vision/MotionDetection.png" width="200" alt="Visualization Dashboard"/>
+  <img src="Programs%20of%20Computer%20Vision%20Raspbery%20Pi/BasicObjectDetection.png" width="200" alt="Basic Object Detection"/>
+  <img src="Programs%20of%20Computer%20Vision%20Raspbery%20Pi/FaceCount.png" width="200" alt="Image Processing"/>
+  <img src="Programs%20of%20Computer%20Vision%20Raspbery%20Pi/FingureCount.png" width="200" alt="Video Analysis"/>
+  <img src="Programs%20of%20Computer%20Vision%20Raspbery%20Pi/MotionDetection.png" width="200" alt="Motion Detection"/>
 </p>
+
+---
+
+## 🧪 Running Automated Tests
+
+Run unit tests verifying landmark coordinate geometry, finger state calculation, and edge cases:
+
+```bash
+pip install -r requirements-dev.txt
+pytest tests -v
+```
 
 ---
 
